@@ -1,0 +1,42 @@
+{
+    "key": "group_5d7a718157654",
+    "title": "自动分页 积木",
+    "fields": [
+        {
+            "key": "field_5d7a71815a6a0",
+            "label": "",
+            "name": "",
+            "type": "message",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "本积木现已<strong>正常运行<\/strong>，可实现根据图像个数自动分页功能（目前仅支持 nicetheme 旗下主题）。",
+            "new_lines": "wpautop",
+            "esc_html": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "nc-nextpage-options"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "config_save_path": "plugins\/nc_nextpage\/functions\/conf",
+    "modified": 1568305572
+}

@@ -1,0 +1,68 @@
+{
+    "key": "group_5d32cd2518e2e",
+    "title": "自动分页 积木",
+    "fields": [
+        {
+            "key": "field_5d33006c47980",
+            "label": "自动分页",
+            "name": "nc_nextpage",
+            "type": "button_group",
+            "instructions": "目前仅支持按图像分页，更多功能敬请期待！",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": [
+                "关闭",
+                "开启"
+            ],
+            "allow_null": 0,
+            "default_value": "",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_5d77907ad99aa",
+            "label": "按图像个数分页",
+            "name": "nextpage_imagenum",
+            "type": "number",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 0,
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "min": 0,
+            "max": "",
+            "step": 1
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "post"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "config_save_path": "plugins\/nc_nextpage\/functions\/conf",
+    "modified": 1568275681
+}
